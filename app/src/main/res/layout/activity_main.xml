@@ -8,11 +8,11 @@
     tools:context="com.therealnic.braintraining.MainActivity">
 
     <TextView
-        android:id="@+id/textView"
-        android:layout_width="86dp"
+        android:id="@+id/tvMenu"
+        android:layout_width="131dp"
         android:layout_height="52dp"
         android:layout_marginTop="8dp"
-        android:fontFamily="casual"
+        android:fontFamily="@font/audiowide"
         android:text="Menù"
         android:textAlignment="center"
         android:textSize="30sp"
@@ -21,77 +21,85 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnBrainAge"
         android:layout_width="308dp"
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="56dp"
+        android:fontFamily="@font/aldrich"
         android:text="Calcola la mia età celebrale"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/tvMenu" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btnDailyTraining"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
+        android:fontFamily="@font/aldrich"
         android:text="Allenamento Quotidiano"
-        app:layout_constraintEnd_toStartOf="@+id/button3"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintEnd_toStartOf="@+id/btnTraining"
         app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="190dp" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/btnTraining"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="24dp"
+        android:fontFamily="@font/aldrich"
         android:text="Allenamento"
-        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteX="242dp"
         tools:layout_editor_absoluteY="190dp" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/btnRelaxMode"
         android:layout_width="169dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
+        android:fontFamily="@font/aldrich"
         android:text="Relax"
         app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="258dp" />
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/btnGraphics"
         android:layout_width="164dp"
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
+        android:fontFamily="@font/aldrich"
         android:text="Grafici"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.21"
-        app:layout_constraintStart_toEndOf="@+id/button4"
+        app:layout_constraintStart_toEndOf="@+id/btnRelaxMode"
         tools:layout_editor_absoluteY="258dp" />
 
     <Button
-        android:id="@+id/button6"
+        android:id="@+id/btnRate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="68dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
+        android:fontFamily="@font/aldrich"
         android:text="Votami"
-        app:layout_constraintEnd_toStartOf="@+id/button7"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="388dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnRemoveAds"
+        app:layout_constraintHorizontal_bias="0.461"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/button7"
+        android:id="@+id/btnRemoveAds"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="68dp"
+        android:layout_marginEnd="28dp"
+        android:fontFamily="@font/aldrich"
         android:text="Rimuovi Pubblicità"
-        app:layout_constraintEnd_toEndOf="parent"
-        tools:layout_editor_absoluteY="388dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
 
 </android.support.constraint.ConstraintLayout>
