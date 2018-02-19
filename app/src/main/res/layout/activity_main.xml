@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:textAlignment="center"
     tools:context="com.therealnic.braintraining.MainActivity">
 
     <TextView
@@ -12,6 +13,7 @@
         android:layout_marginTop="8dp"
         android:fontFamily="casual"
         android:text="Menù"
+        android:textAlignment="center"
         android:textSize="30sp"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
