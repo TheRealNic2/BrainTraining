@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Brain Training</string>
+    <string name="Menu">Menù</string>
+    <string name="btnBrainAge">How Old Is Your Brain?</string>
+    <string name="btnRelaxMode">Relax Mode</string>
+    <string name="btnStatistics">Statistics</string>
+    <string name="btnDailyTraining">Daily Training</string>
+    <string name="btnTraining">Training</string>
+    <string name="btnRate">Rate Us</string>
+    <string name="btnRemoveAds">Remove ADS</string>
 </resources>

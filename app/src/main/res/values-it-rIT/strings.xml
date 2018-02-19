@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Brain Training</string>
+    <string name="Menu">Menù</string>
+    <string name="btnBrainAge">Calcola La Tua Età Celebrale</string>
+    <string name="btnRelaxMode">Modalità Relax</string>
+    <string name="btnStatistics">Statistiche</string>
+    <string name="btnDailyTraining">Allenamento Quotidiano</string>
+    <string name="btnTraining">Allenamento</string>
+    <string name="btnRate">Votaci</string>
+    <string name="btnRemoveAds">Rimuovi Pubblicità</string>
+</resources>
