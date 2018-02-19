@@ -8,5 +8,5 @@
     <string name="btnDailyTraining">Allenamento Quotidiano</string>
     <string name="btnTraining">Allenamento</string>
     <string name="btnRate">Votaci</string>
-    <string name="btnRemoveAds">Rimuovi Pubblicità</string>
+    <string name="btnSettings">Impostazioni</string>
 </resources>
